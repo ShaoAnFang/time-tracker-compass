@@ -1,9 +1,8 @@
-
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { MainCategory, SubCategory, TimeEntry, TimeAnalytics, DateRange, TimeAnalyticsSummary, PeriodType } from '@/types';
 import { useAuth } from './AuthContext';
 import { format, subDays, startOfWeek, endOfWeek, startOfMonth, endOfMonth, parseISO, differenceInMinutes } from 'date-fns';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 // Initial mock data
 const INITIAL_MAIN_CATEGORIES: MainCategory[] = [

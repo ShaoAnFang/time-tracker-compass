@@ -1,7 +1,6 @@
-
 import React, { createContext, useContext, useState, useEffect } from 'react';
 import { User, UserRole } from '@/types';
-import { toast } from '@/components/ui/sonner';
+import { toast } from 'sonner';
 
 // Mock users for demo
 const MOCK_USERS = [
